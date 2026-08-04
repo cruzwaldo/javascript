@@ -49,10 +49,10 @@
 
 
 
-let kilometros = Number( prompt ('kilometros'));
-let tiempo = Number( prompt ('tiempo'));
-let velocidad = kilometros / tiempo
-console.log(`velocidad ${velocidad}`)
+// let kilometros = Number( prompt ('kilometros'));
+// let tiempo = Number( prompt ('tiempo'));
+// let velocidad = kilometros / tiempo
+// console.log(`velocidad ${velocidad}`)
 
 
 
@@ -64,3 +64,26 @@ console.log(`velocidad ${velocidad}`)
 //pedir una temperatura en C y convertirl EN f;
 
 //PEDIR LA DISTACIA EN KILOMETROS y convertirla en metros
+
+
+
+
+//pedir al usuario su peso en kilo
+// decirle cuanto pesa en libras
+// decirle si bebe competir en que ctagoria
+
+
+let kilos = Number(prompt('diga su peso en kilos'));
+let libras = kilos * 2.2046
+console.log (`libras ${libras}`);
+if ( libras < 50 ) {
+    console.log ('tu peso en libras es ${libras}');
+} else if (libras >= 160 && libras < 170 ) {
+    console.log('tu categoria de competencia es peso pluna');
+} else {
+console.log ('categoria ligero')
+
+}
+
+
+    
