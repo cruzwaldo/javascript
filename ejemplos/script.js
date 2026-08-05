@@ -144,7 +144,47 @@
 
      // dedir numero y entegar tabla de multiplicacion
 
-    //  let nuemro = Number(prompt('diga un numero'))
+    //  let usuario = Number(prompt('deme un numero'));
+    //  let limite = 20
 
-    //  for (let = numero = 1 ; numero <=10 ; nuemro++ )
-    //     console.log(`numero*numero++`)
+
+
+
+    //  for(let i = 1; i<=limite; i++){
+    //     console.log(`${i} * ${usuario} = ${i*usuario}`)
+    //  }
+    
+   
+    //arrays  => lista 
+
+    // let frutas = [ 'pera','manzana','kiwi'];
+    // console.log(frutas)
+
+    // frutas.pop()
+
+    let nombreestudiante = prompt('estudiante');
+    let nota = Number(prompt('diga la nota'));
+
+    if ( nota <=3 ){
+        console.log('estudiante pierde');
+    } else if( nota >=4 && nota<5){ 
+    console.log( 'reprueba' )
+} else{
+        console.log('pasa')
+}
+// let nota = Number(prompt('diga la nota'));
+// let nota = Number(prompt('diga la nota'));
+// let nota = Number(prompt('diga la nota'));
+
+// let nota =[];
+// frutas.push ( )
+
+
+
+
+// if ( libras < 50 ) {
+//     console.log ('tu peso en libras es ${libras}');
+// } else if (libras >= 160 && libras < 170 ) {
+//     console.log('tu categoria de competencia es peso pluna');
+// } else {
+// console.log ('categoria ligero')
