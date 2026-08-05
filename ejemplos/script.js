@@ -73,17 +73,65 @@
 // decirle si bebe competir en que ctagoria
 
 
-let kilos = Number(prompt('diga su peso en kilos'));
-let libras = kilos * 2.2046
-console.log (`libras ${libras}`);
-if ( libras < 50 ) {
-    console.log ('tu peso en libras es ${libras}');
-} else if (libras >= 160 && libras < 170 ) {
-    console.log('tu categoria de competencia es peso pluna');
-} else {
-console.log ('categoria ligero')
+// let kilos = Number(prompt('diga su peso en kilos'));
+// let libras = kilos * 2.2046
+// console.log (`libras ${libras}`);
+// if ( libras < 50 ) {
+//     console.log ('tu peso en libras es ${libras}');
+// } else if (libras >= 160 && libras < 170 ) {
+//     console.log('tu categoria de competencia es peso pluna');
+// } else {
+// console.log ('categoria ligero')
 
-}
+// }
 
 
+
+// let kilos = Number(prompt( 'ingrese su peso en kg'));
+// let genero = prompt('ingrese su genero: F o M');
+// let libras = kilo * 2.2046
+// console.log(su peso en libras);
     
+// genero.toLocaleLowerCase();
+
+// let bajo = 160;
+// let medio = 180;
+
+// if(genero == 'm'){
+//     bajo = 160;
+//     medio = 180;
+
+
+
+// } else if{
+
+
+// }
+// metodo para preparar (francesa; moka; v60)
+// cuantos gramos de cafe va a hacer? (20, 45,15)
+
+// ratio francesa = 1/15
+// ratio moka =1/14
+// rotio v&0 = 1/16
+
+
+
+// let metodo = Number(prompt(como lo deseas preparar (francesa, moka, v60))
+// let cantidad =
+
+// let year = Number(prompt('por favor diga un año'))
+// if ((year % 400 === 0)|| year % 4 ===0 && year % 100 ! ==0 ){
+// console.log('es bisiesto')
+// } else{
+//     console.log('no es bisiesto')
+// }
+
+let personas = Number(prompt('cuantas personas cenaron?'));
+let nompersonas = prompt('quien comio mas');
+let cuenta = prompt('valor de la cuenta');
+let pagar = cuenta/(personas+1)
+let pagamas = cuenta/(nompersonas*2)
+
+console.log (`valor que debe pagar cada persona ${pagar} pagamas ${paga el doble}`);
+
+
