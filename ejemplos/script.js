@@ -126,12 +126,25 @@
 //     console.log('no es bisiesto')
 // }
 
-let personas = Number(prompt('cuantas personas cenaron?'));
-let nompersonas = prompt('quien comio mas');
-let cuenta = prompt('valor de la cuenta');
-let pagar = cuenta/(personas+1)
-let pagamas = cuenta/(nompersonas*2)
+// let personas = Number(prompt('cuantas personas cenaron?'));
+// let nompersonas = prompt('quien comio mas');
+// let cuenta = prompt('valor de la cuenta');
+// let pagar = cuenta/(personas+1)
+// let pagamas = cuenta/(nompersonas*2)
 
-console.log (`valor que debe pagar cada persona ${pagar} pagamas ${paga el doble}`);
+// console.log (`valor que debe pagar cada persona ${pagar} pagamas ${paga el doble}`);
 
 
+// bucles
+// variable + condicion + i ++
+//  for (let i = 1 ; i <= 10 ; i++){
+//     console.log(`i`)
+
+     
+
+     // dedir numero y entegar tabla de multiplicacion
+
+    //  let nuemro = Number(prompt('diga un numero'))
+
+    //  for (let = numero = 1 ; numero <=10 ; nuemro++ )
+    //     console.log(`numero*numero++`)
