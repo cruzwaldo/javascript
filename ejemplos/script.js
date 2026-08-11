@@ -166,25 +166,11 @@
     let nota = Number(prompt('diga la nota'));
 
     if ( nota <=3 ){
-        console.log('estudiante pierde');
+        console.log(`${nombreestudiante} pierde`);
     } else if( nota >=4 && nota<5){ 
-    console.log( 'reprueba' )
+    console.log(`${nombreestudiante} tiene que nivelar`);
 } else{
         console.log('pasa')
 }
-// let nota = Number(prompt('diga la nota'));
-// let nota = Number(prompt('diga la nota'));
-// let nota = Number(prompt('diga la nota'));
-
-// let nota =[];
-// frutas.push ( )
-
-
-
-
-// if ( libras < 50 ) {
-//     console.log ('tu peso en libras es ${libras}');
-// } else if (libras >= 160 && libras < 170 ) {
-//     console.log('tu categoria de competencia es peso pluna');
-// } else {
-// console.log ('categoria ligero')
+   for(let i = 1 ; i<=3 ; i++)
+ console.log(`${nombreestudiante} + ${nota} = ${i+ nota}`)
