@@ -48,16 +48,30 @@
 // }
 
 
-let productos = [
-  { nombre: "Mouse", precio: 50000 },
-  { nombre: "Teclado", precio: 120000 },
-  { nombre: "Monitor", precio: 800000 }
+// let productos = [
+//   { nombre: "Mouse", precio: 50000 },
+//   { nombre: "Teclado", precio: 120000 },
+//   { nombre: "Monitor", precio: 800000 }
+// ];
+
+// let precioTotal = 0;
+
+// for (let producto of productos) {
+//   precioTotal += producto.precio;
+// }
+
+// console.log("El precio total es: " + precioTotal);
+
+
+let estudiantes = [
+  { nombre: "Ana", nota: 4.5 },
+  { nombre: "Pedro", nota: 2.8 },
+  { nombre: "Laura", nota: 4.0 },
+  { nombre: "Carlos", nota: 2.5 }
 ];
 
-let precioTotal = 0;
-
-for (let producto of productos) {
-  precioTotal += producto.precio;
+for (let estudiante of estudiantes) {
+  if (estudiante.nota >= 3.0) {
+    console.log(estudiante.nombre + " - " + estudiante.nota);
+  }
 }
-
-console.log("El precio total es: " + precioTotal);
