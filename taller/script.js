@@ -18,16 +18,46 @@
 // console.log('numeros impares')
 // console.log (numeros[i])
 //     }
-    
+
 // }
 
-let numeros = [ 1,2,5,7,10,50,90,110,500];
-let numeromayor = 0;
-for (let i = 1; i < numeros.length; i++) {
+// let numeros = [ 1,2,5,7,10,50,90,110,500];
+// let numeromayor = 0;
+// for (let i = 1; i < numeros.length; i++) {
 
-    if (numeros [i] > numeromayor){
-        numeromayor = numeros[i];
-    }  
+//     if (numeros [i] > numeromayor){
+//         numeromayor = numeros[i];
+//     }  
 
-    }
- console.log( "el numero mayor es:" + numeromayor)       
+//     }
+//  console.log( "el numero mayor es:" + numeromayor)       
+
+
+
+// let productos = [
+//     { nombre: "mouse", precio: 50000 },
+//      { nombre: "teclado", precio: 120000 },
+//     { nombre:  "monitor", precio: 800000},
+//                     ];
+
+// let preciototal = 0;
+// for (let i = 0; i < productos.length; i++) {
+
+//     let precio = productos[i].precio;
+//   console.log(nombre.precio[i] + nombre.precio[i])
+// }
+
+
+let productos = [
+  { nombre: "Mouse", precio: 50000 },
+  { nombre: "Teclado", precio: 120000 },
+  { nombre: "Monitor", precio: 800000 }
+];
+
+let precioTotal = 0;
+
+for (let producto of productos) {
+  precioTotal += producto.precio;
+}
+
+console.log("El precio total es: " + precioTotal);
